@@ -15,7 +15,7 @@ class HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<HomeScreen> {
   // Asldksadjsakldkls+++++++++++++++++++
-  int selectedIndex = 1; // لتحديد الصفحة الحالية
+  int selectedIndex = 0; // لتحديد الصفحة الحالية
   final List<Widget> pages = [
     Login(),
     const Settings(), // الصفحة الثانية (Settings)
